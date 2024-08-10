@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impostor</title>
+
+    <link rel="stylesheet" href="/impostor.css">
+</head>
+
+<body>
+    <h1>IMPOSTOR</h1>
+    <form id="config-form">
+        <p>Número de jugadores</p>
+        <input id="player-input" type="number" placeholder="Jugadores" min="5" value="5">
+        <p>Número de impostores</p>
+        <input id="impostor-input" type="number" placeholder="Impostores" min="1" value="1">
+        <p>Impostor no clue</p>
+        <input id="no-clue-mode-checkbox" type="checkbox">
+        <p>Palabras</p>
+        <textarea id="word-list-input" class="palabras"></textarea>
+
+        <button type="submit">JUGAR</button>
+    </form>
+
+    <div id="in-game-text">
+        <p>PULSA LA PANTALLA PARA REVELAR LA PALABRA</p>
+    </div>
+
+    <script src="/impostor.js"></script>
+</body>
+</html>
