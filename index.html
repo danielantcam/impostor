@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impostor</title>
 
-    <link rel="stylesheet" href="impostor.css">
+    <link rel="stylesheet" href="/impostor.css">
 </head>
 
 <body>
     <h1>IMPOSTOR</h1>
     <form id="config-form">
-        <p>Número de jugadores</p>
+        <label for="player-input">NÚMERO DE JUGADORES</label>
         <input id="player-input" type="number" placeholder="Jugadores" min="5" value="5">
-        <p>Número de impostores</p>
+        <label for="impostor-input">NÚMERO DE IMPOSTORES</label>
         <input id="impostor-input" type="number" placeholder="Impostores" min="1" value="1">
-        <p>Impostor no clue</p>
+        <label for="no-clue-mode-checkbox" class="no-clue-label">MODO NO CLUE</label>
         <input id="no-clue-mode-checkbox" type="checkbox">
-        <p>Palabras</p>
+        <label for="word-list-input">PALABRAS</label>
         <textarea id="word-list-input" class="palabras"></textarea>
 
         <button type="submit">JUGAR</button>
@@ -27,6 +27,6 @@
         <p>PULSA LA PANTALLA PARA REVELAR LA PALABRA</p>
     </div>
 
-    <script src="impostor.js"></script>
+    <script src="/impostor.js"></script>
 </body>
 </html>
