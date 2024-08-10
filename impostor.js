@@ -1,5 +1,3 @@
-const body = document.querySelector("body");
-
 const configForm = document.querySelector("#config-form");
 const playerInput = document.querySelector("#player-input");
 const impostorInput = document.querySelector("#impostor-input");
@@ -374,7 +372,7 @@ const startGame = (players, impostors, noClue, wordList)=>{
 
     console.log(orderedWords);
 
-    body.addEventListener("click", ()=>{
+    document.documentElement.addEventListener("click", ()=>{
         togleInGameText(players);
     })
 }
