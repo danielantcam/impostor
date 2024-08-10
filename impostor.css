@@ -1,4 +1,17 @@
+html{
+    height: 100%;
+}
+
 .palabras{
     width: 80%;
     height: auto;
+    display: block;
+}
+
+label{
+    display: block;
+}
+
+.no-clue-label{
+    display: inline-block;
 }
