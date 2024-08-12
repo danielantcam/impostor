@@ -15,3 +15,7 @@ label{
 .no-clue-label{
     display: inline-block;
 }
+
+input{
+    display: block;
+}
